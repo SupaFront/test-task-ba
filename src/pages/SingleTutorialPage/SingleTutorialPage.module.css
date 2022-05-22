@@ -1,0 +1,179 @@
+.item {
+    padding: 10px 10px;
+    border: 2px solid rgb(248, 101, 184);
+    border-radius: 5px;
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    
+}
+
+.item:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.props {
+    font-weight: 700;
+    margin-left: 0;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.propsData {
+    font-weight: normal;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.btnContainer {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+.quest {
+    margin-right: 5px;
+}
+
+.delConfirm {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 196, 45);
+    font-weight: 700;
+    border: 2px solid rgb(255, 196, 45);
+    border-radius: 5px;
+    margin-left: 10px;
+    height: 34px;
+}
+
+.delDeny {
+    background-color: rgb(255, 255, 255);
+    color: rgb(205, 0, 27);
+    font-weight: 700;
+    border: 2px solid rgb(205, 0, 27);
+    border-radius: 5px;
+    margin-left: 10px;
+    height: 34px;
+
+}
+
+.editBtn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 205, 69);
+    border: 2px solid rgb(255, 205, 69);
+    display: inline-block;
+
+    text-align: center;
+    line-height: 1.2;
+    transition: linear;
+    transition-duration: 250ms;
+    border-radius: 6px;
+    padding: 5px 5px;
+    width: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 700;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 5px;
+    height: 34px;
+}
+
+.editBtn:hover,
+.editBtn:focus {
+    background-color: rgb(255, 205, 69);
+    color: rgb(255, 255, 255);
+}
+
+.openBtn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(47, 202, 9);
+    border: 2px solid rgb(47, 202, 9);
+    display: inline-block;
+    text-align: center;
+    line-height: 1.2;
+    transition: linear;
+    transition-duration: 250ms;
+    border-radius: 6px;
+    padding: 5px 5px;
+    width: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 700;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 5px;
+    height: 34px;
+}
+
+.openBtn:hover,
+.openBtn:focus {
+    background-color: rgb(47, 202, 9);
+    color: rgb(255, 255, 255);
+}
+
+.deleteBtn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(205, 0, 27);
+    border: 2px solid rgb(205, 0, 27);
+
+    transition: linear;
+    transition-duration: 250ms;
+    border-radius: 6px;
+    padding: 3px 5px;
+    width: 65px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 700;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    margin-right: 0;
+}
+
+.deleteBtn:hover,
+.deleteBtn:focus {
+    background-color: rgb(205, 0, 27);
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    padding: 30px 15px;
+}
+.backBtn{
+    margin-top: 30px;
+    color: rgb(0, 0, 255);
+    background-color: inherit;
+    border: 2px solid rgb(0, 0, 255);
+    border-radius: 5px;
+    font-weight: 700;
+    height: 40px;
+    width: 90px;
+}
+
+.backBtn:hover,
+.backBtn:focus{
+background-color: rgb(0, 0, 255);;
+color: inherit;
+}
+
+
+@media screen and (min-width:768px ) {
+    .backBtn{
+
+        height: 60px;
+            width: 120px;
+            border: 3px solid rgb(0, 0, 255);
+    }
+
+        .editBtn{
+            width: 80px;
+        }
+
+        .deleteBtn{
+            width: 90px;
+        }
+}

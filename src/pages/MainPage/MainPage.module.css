@@ -1,0 +1,108 @@
+.mainSec{
+    padding:50px 15px
+}
+
+.topSect{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.BtnsWrap{
+    align-items: center;
+    display: flex;
+}
+
+.addNewBtn {
+    background-color: rgb(255, 255, 255);
+    color: rgb(47, 202, 9);
+    border: 2px solid rgb(47, 202, 9);
+   display: inline-block;
+
+    transition: linear;
+    transition-duration: 250ms;
+    border-radius: 6px;
+    padding: 5px 5px;
+    width: 170px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 700;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 5px;
+    height: 34px;
+}
+
+.addNewBtn:hover,
+.addNewBtn:focus {
+    background-color: rgb(47, 202, 9);
+    color: rgb(255, 255, 255);
+}
+
+.deleteAllBtn{
+    background-color: rgb(255, 255, 255);
+        color: rgb(205, 0, 27);
+        border: 2px solid rgb(205, 0, 27);
+    
+        transition: linear;
+        transition-duration: 250ms;
+        border-radius: 6px;
+        padding: 3px 5px;
+        width: 170px;
+        margin-right: auto;
+        margin-left: auto;
+        font-weight: 700;
+        box-sizing: border-box;
+        margin-bottom: 5px;
+        margin-right: 0;
+}
+.deleteAllBtn:hover,
+.deleteAllBtn:focus {
+    background-color: rgb(205, 0, 27);
+    color: rgb(255, 255, 255);
+}
+
+.delConfirm{
+    background-color: rgb(255, 255, 255);
+        color: rgb(255, 196, 45);
+        font-weight: 700;
+        border: 2px solid rgb(255, 196, 45);
+        border-radius: 5px;
+        margin-left: 10px;
+}
+
+.delDeny{
+    background-color: rgb(255, 255, 255);
+        color: rgb(205, 0, 27);
+        font-weight: 700;
+        border: 2px solid rgb(205, 0, 27);
+        border-radius: 5px;
+        margin-left: 10px;
+        
+}
+
+.checkbox{
+    margin-left: 10px;
+}
+
+
+.tutorialsList{
+    background-color: rgb(252, 166, 233);
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+
+
+@media screen and (min-width: 768px){
+    
+    .BtnsWrap{
+        display: flex;
+        justify-content: space-between;
+    }
+
+        .deleteAllBtn {
+            height: 34px;
+        }
+
+}

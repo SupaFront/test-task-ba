@@ -1,0 +1,16 @@
+.backBtn {
+    margin-top: 30px;
+    color: rgb(0, 0, 255);
+    background-color: inherit;
+    border: 3px solid rgb(0, 0, 255);
+    border-radius: 5px;
+    font-weight: 700;
+    height: 60px;
+    width: 120px;
+}
+
+.backBtn:hover,
+.backBtn:focus {
+    background-color: rgb(0, 0, 255);
+    color: inherit;
+}
