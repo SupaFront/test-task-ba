@@ -1,7 +1,7 @@
 {
   "name": "buildapps",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": ".",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",
